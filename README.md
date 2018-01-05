@@ -11,8 +11,8 @@ $ docker build -t proxy:latest .
 
 ```bash
 # 公文チェックなど
-$ docker run --rm proxy:latest httpd -S
-$ echo $?   # ゼロ以外ならOK?
+$ docker run --rm proxy:latest httpd -S  # エラーない？
+$ echo $?   # 戻り値ゼロ?
 ```
 
 # 起動
